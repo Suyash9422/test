@@ -1,6 +1,15 @@
-no hello for b
-* [new branch]      tech-team -> tech-team
-PS D:\test\test> git fetch remote tech-team
-fatal: 'remote' does not appear to be a git repository
-fatal: Could not read from remote repository.
-PS D:\test\test> git fetch origin tech-team
+Perfect — thanks for sharing the logs 🙌
+
+Let’s break this down:
+
+What the log shows
+
+3b59dbe (HEAD -> tech-team, origin/tech-team) → Your local branch and remote branch (origin/tech-team) are pointing to the same commit. ✅
+
+The latest commit is a merge commit from Suyash9422:main into tech-team.
+
+The other commits (758be65, 35e3011) are your b.txt edits.
+
+Why GitHub shows “20 mins ago”
+
+When you ran git commit -m "changes done for b.txt at 11.36", Git told you:
